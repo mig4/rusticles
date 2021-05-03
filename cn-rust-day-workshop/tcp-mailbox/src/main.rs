@@ -1,6 +1,7 @@
 use std::collections::VecDeque;
 use std::io::{BufRead, BufReader, Write};
 use std::net::{TcpListener, TcpStream};
+use std::sync::{Arc, Mutex};
 
 #[derive(Debug, Eq, PartialEq)]
 enum Request {
@@ -10,12 +11,21 @@ enum Request {
 
 fn main() {
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
-    let mut storage = VecDeque::new();
+    let storage = Arc::new(Mutex::new(VecDeque::new()));
 
     for connection_attempt in listener.incoming() {
         match connection_attempt {
             Ok(stream) => {
-                handle_client(stream, &mut storage)
+                // Multiple threads need to be able to write to storage, but
+                // collections are not thread-safe so we wrap our `VecDeque` in
+                // a mutex and lock it in the thread doing the modification.
+                // We also need to ensure collection isn't deallocated before
+                // all threads release it, so we wrap it in a reference counter
+                // (`Arc`).
+                let mut thread_handle = Arc::clone(&storage);
+                std::thread::spawn(move || {
+                    handle_client(stream, &mut thread_handle);
+                });
             },
             Err(e) => {
                 eprintln!("Error connecting: {}", e)
@@ -24,17 +34,17 @@ fn main() {
     }
 }
 
-fn handle_client(mut stream: TcpStream, storage: &mut VecDeque<String>) {
+fn handle_client(mut stream: TcpStream, storage: &Mutex<VecDeque<String>>) {
     let line = read_line(&stream);
     let request = parse_request(line);
 
     println!("Client connected!");
     match request {
         Request::Publish(msg) => {
-            storage.push_back(msg)
+            storage.lock().unwrap().push_back(msg)
         }
         Request::Retrieve => {
-            let maybe_msg = storage.pop_front();
+            let maybe_msg = storage.lock().unwrap().pop_front();
             match maybe_msg {
                 Some(msg) => {
                     stream.write_all(msg.as_bytes()).unwrap();
