@@ -8,7 +8,10 @@ Excercises and experiments with the code from
 - [restaurant](./restaurant/) - [Chapter 7][tb-ch07] -
   _Managing Growing Projects with Packages, Crates, and Modules_
 - [adder](./adder/) - [Chapter 11][tb-ch11] - _Writing Automated Tests_
+- [minigrep](./minigrep/) - [Chapter 12][tb-ch12] -
+  _An I/O Project: Building a Command Line Program_
 
 [tb-ch02]: https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
 [tb-ch07]: https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html
 [tb-ch11]: https://doc.rust-lang.org/book/ch11-00-testing.html
+[tb-ch12]: https://doc.rust-lang.org/book/ch12-00-an-io-project.html
