@@ -31,6 +31,7 @@ pub fn add_two(a: i32) -> i32 {
     a + 2
 }
 
+// Only compile this module when running in `test` configuration
 #[cfg(test)]
 mod tests {
     use super::*;
