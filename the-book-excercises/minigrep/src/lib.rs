@@ -21,10 +21,16 @@ impl Config {
 
 pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
     let contents = fs::read_to_string(config.filename)?;
-    
-    println!("With text:\n{}", contents);
+
+    for line in search(&config.query, &contents) {
+        println!("{}", line);
+    }
 
     Ok(())
+}
+
+pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
+    contents.lines().filter(|l| l.contains(query)).collect()
 }
 
 #[cfg(test)]
@@ -44,5 +50,27 @@ mod tests {
     #[should_panic]
     fn config_new_fails_on_not_enough_args() {
         let _ = Config::new(&["bin".to_owned()]).unwrap();
+    }
+
+    #[test]
+    fn search_returns_a_result() {
+        let query = "duct";
+        let contents = "\
+Rust:
+safe, fast, productive
+Pick three.";
+
+        assert_eq!(vec!["safe, fast, productive"], search(query, contents));
+    }
+
+    #[test]
+    fn search_returns_an_empty_result_when_no_matches() {
+        let query = "unfindable";
+        let contents = "\
+All the lines
+That can be found
+here.";
+
+        assert_eq!(Vec::new() as Vec<&str>, search(query, contents));
     }
 }
