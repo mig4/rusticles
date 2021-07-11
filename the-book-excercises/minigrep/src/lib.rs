@@ -26,3 +26,23 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
 
     Ok(())
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn config_new_parses_args() {
+        let config = Config::new(&[
+            "bin".to_owned(), "pattern".to_owned(), "filename".to_owned()
+        ]).unwrap();
+        assert_eq!(config.query, "pattern");
+        assert_eq!(config.filename, "filename");
+    }
+
+    #[test]
+    #[should_panic]
+    fn config_new_fails_on_not_enough_args() {
+        let _ = Config::new(&["bin".to_owned()]).unwrap();
+    }
+}
