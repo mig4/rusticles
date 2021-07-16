@@ -1,0 +1,509 @@
+# pangolin
+NODE                                         NAMESPACE           POD                          CPU REQUESTS   CPU LIMITS    CPU UTIL      MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                            *                   *                            3626m (6%)     2076m (3%)    5793m (11%)   37447Mi (18%)     24085Mi (11%)   50825Mi (24%)
+                                                                                                                                                                           
+ip-AAA-AA-A-149.us-west-2.compute.internal   *                   *                            0m (0%)        0m (0%)       226m (2%)     0Mi (0%)          0Mi (0%)        2632Mi (8%)
+                                                                                                                                                                           
+ip-AAA-AA-A-153.us-west-2.compute.internal   *                   *                            243m (3%)      243m (3%)     466m (5%)     2782Mi (8%)       2782Mi (8%)     4992Mi (15%)
+ip-AAA-AA-A-153.us-west-2.compute.internal   ik3qu-prometheus    prometheus-ik3qu-0           154m (1%)      154m (1%)     65m (0%)      1618Mi (5%)       1618Mi (5%)     1127Mi (3%)
+ip-AAA-AA-A-153.us-west-2.compute.internal   sah6k-prometheus    prometheus-sah6k-0           89m (1%)       89m (1%)      59m (0%)      1164Mi (3%)       1164Mi (3%)     790Mi (2%)
+                                                                                                                                                                           
+ip-AAA-AA-A-157.us-west-2.compute.internal   *                   *                            0m (0%)        0m (0%)       1095m (27%)   0Mi (0%)          0Mi (0%)        2578Mi (16%)
+                                                                                                                                                                           
+ip-AAA-AA-A-165.us-west-2.compute.internal   *                   *                            1005m (12%)    1005m (12%)   603m (7%)     11258Mi (36%)     11258Mi (36%)   10900Mi (34%)
+ip-AAA-AA-A-165.us-west-2.compute.internal   ib0ce-prometheus    prometheus-ib0ce-0           74m (0%)       74m (0%)      34m (0%)      1074Mi (3%)       1074Mi (3%)     448Mi (1%)
+ip-AAA-AA-A-165.us-west-2.compute.internal   ie0oo-prometheus    prometheus-ie0oo-0           931m (11%)     931m (11%)    342m (4%)     10184Mi (32%)     10184Mi (32%)   8094Mi (25%)
+                                                                                                                                                                           
+ip-AAA-AA-A-170.us-west-2.compute.internal   *                   *                            1550m (19%)    0m (0%)       577m (7%)     13362Mi (42%)     0Mi (0%)        14357Mi (45%)
+ip-AAA-AA-A-170.us-west-2.compute.internal   monitoring          prometheus-bf48b56c7-h57t8   1550m (19%)    0m (0%)       480m (6%)     13362Mi (42%)     0Mi (0%)        12307Mi (39%)
+                                                                                                                                                                           
+ip-AAA-AA-A-174.us-west-2.compute.internal   *                   *                            0m (0%)        0m (0%)       335m (8%)     0Mi (0%)          0Mi (0%)        2383Mi (15%)
+                                                                                                                                                                           
+ip-AAA-AA-A-185.us-west-2.compute.internal   *                   *                            0m (0%)        0m (0%)       1739m (43%)   0Mi (0%)          0Mi (0%)        2274Mi (14%)
+                                                                                                                                                                           
+ip-AAA-AA-A-190.us-west-2.compute.internal   *                   *                            828m (10%)     828m (10%)    756m (9%)     10044Mi (32%)     10044Mi (32%)   10705Mi (34%)
+ip-AAA-AA-A-190.us-west-2.compute.internal   pangolin-prometheus   prometheus-pangolin-0          214m (2%)      214m (2%)     81m (1%)      2888Mi (9%)       2888Mi (9%)     2307Mi (7%)
+ip-AAA-AA-A-190.us-west-2.compute.internal   aht7u-prometheus    prometheus-aht7u-0           421m (5%)      421m (5%)     146m (1%)     4810Mi (15%)      4810Mi (15%)    3370Mi (10%)
+ip-AAA-AA-A-190.us-west-2.compute.internal   aike3-prometheus    prometheus-aike3-0           193m (2%)      193m (2%)     148m (1%)     2345Mi (7%)       2345Mi (7%)     1824Mi (5%)
+# quetzal
+NODE                                         NAMESPACE             POD                           CPU REQUESTS   CPU LIMITS    CPU UTIL      MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                            *                     *                             5123m (6%)     4573m (6%)    7762m (10%)   92122Mi (30%)     61352Mi (20%)   88295Mi (29%)
+                                                                                                                                                                              
+ip-BBB-BB-B-202.eu-west-1.compute.internal   *                     *                             0m (0%)        0m (0%)       741m (18%)    0Mi (0%)          0Mi (0%)        2476Mi (16%)
+                                                                                                                                                                              
+ip-BBB-BB-B-204.eu-west-1.compute.internal   *                     *                             1631m (10%)    1631m (10%)   2677m (16%)   22190Mi (35%)     22190Mi (35%)   20126Mi (32%)
+ip-BBB-BB-B-204.eu-west-1.compute.internal   quetzal-prometheus   prometheus-quetzal-0         214m (1%)      214m (1%)     198m (1%)     3040Mi (4%)       3040Mi (4%)     2259Mi (3%)
+ip-BBB-BB-B-204.eu-west-1.compute.internal   uu3le-prometheus      prometheus-uu3le-0            104m (0%)      104m (0%)     65m (0%)      1164Mi (1%)       1164Mi (1%)     837Mi (1%)
+ip-BBB-BB-B-204.eu-west-1.compute.internal   ihui0-prometheus      prometheus-ihui0-0            89m (0%)       89m (0%)      50m (0%)      1074Mi (1%)       1074Mi (1%)     711Mi (1%)
+ip-BBB-BB-B-204.eu-west-1.compute.internal   rie4a-prometheus      prometheus-rie4a-0            89m (0%)       89m (0%)      57m (0%)      1533Mi (2%)       1533Mi (2%)     540Mi (0%)
+ip-BBB-BB-B-204.eu-west-1.compute.internal   et6th-prometheus      prometheus-et6th-0            361m (2%)      361m (2%)     264m (1%)     4132Mi (6%)       4132Mi (6%)     3252Mi (5%)
+ip-BBB-BB-B-204.eu-west-1.compute.internal   zee9p-prometheus      prometheus-zee9p-0            774m (4%)      774m (4%)     454m (2%)     11245Mi (17%)     11245Mi (17%)   6857Mi (10%)
+                                                                                                                                                                              
+ip-BBB-BB-B-214.eu-west-1.compute.internal   *                     *                             2942m (18%)    2942m (18%)   1357m (8%)    39161Mi (62%)     39161Mi (62%)   28517Mi (45%)
+ip-BBB-BB-B-214.eu-west-1.compute.internal   thio3-prometheus      prometheus-thio3-0            89m (0%)       89m (0%)      58m (0%)      1074Mi (1%)       1074Mi (1%)     720Mi (1%)
+ip-BBB-BB-B-214.eu-west-1.compute.internal   ei7ee-prometheus      prometheus-ei7ee-0            1049m (6%)     1049m (6%)    310m (1%)     13705Mi (21%)     13705Mi (21%)   8397Mi (13%)
+ip-BBB-BB-B-214.eu-west-1.compute.internal   aej9i-prometheus      prometheus-aej9i-0            235m (1%)      235m (1%)     92m (0%)      2888Mi (4%)       2888Mi (4%)     2007Mi (3%)
+ip-BBB-BB-B-214.eu-west-1.compute.internal   go0ci-prometheus      prometheus-go0ci-0            89m (0%)       89m (0%)      30m (0%)      1164Mi (1%)       1164Mi (1%)     785Mi (1%)
+ip-BBB-BB-B-214.eu-west-1.compute.internal   eir7g-prometheus      prometheus-eir7g-0            1480m (9%)     1480m (9%)    570m (3%)     20329Mi (32%)     20329Mi (32%)   13472Mi (21%)
+                                                                                                                                                                              
+ip-BBB-BB-B-221.eu-west-1.compute.internal   *                     *                             0m (0%)        0m (0%)       939m (23%)    0Mi (0%)          0Mi (0%)        2323Mi (14%)
+                                                                                                                                                                              
+ip-BBB-BB-B-233.eu-west-1.compute.internal   *                     *                             550m (3%)      0m (0%)       1373m (8%)    30770Mi (48%)     0Mi (0%)        28208Mi (44%)
+ip-BBB-BB-B-233.eu-west-1.compute.internal   monitoring            prometheus-84db9dfbb5-wfq9z   550m (3%)      0m (0%)       1384m (8%)    30770Mi (48%)     0Mi (0%)        27580Mi (43%)
+                                                                                                                                                                              
+ip-BBB-BB-B-235.eu-west-1.compute.internal   *                     *                             0m (0%)        0m (0%)       420m (2%)     0Mi (0%)          0Mi (0%)        4472Mi (7%)
+                                                                                                                                                                              
+ip-BBB-BB-B-236.eu-west-1.compute.internal   *                     *                             0m (0%)        0m (0%)       258m (6%)     0Mi (0%)          0Mi (0%)        2171Mi (13%)
+# ringtail
+NODE                                              NAMESPACE             POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL     MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                                 *                     *                             1516m (5%)     966m (3%)    2549m (9%)   22022Mi (20%)     11732Mi (10%)   33095Mi (30%)
+                                                                                                                                                                                 
+ip-CCC-CC-C-149.ap-southeast-1.compute.internal   *                     *                             174m (4%)      174m (4%)    312m (7%)    2742Mi (17%)      2742Mi (17%)    5012Mi (32%)
+ip-CCC-CC-C-149.ap-southeast-1.compute.internal   ringtail-prometheus   prometheus-ringtail-0         174m (4%)      174m (4%)    92m (2%)     2742Mi (17%)      2742Mi (17%)    1884Mi (12%)
+                                                                                                                                                                                 
+ip-CCC-CC-C-154.ap-southeast-1.compute.internal   *                     *                             0m (0%)        0m (0%)      412m (10%)   0Mi (0%)          0Mi (0%)        2447Mi (15%)
+                                                                                                                                                                                 
+ip-CCC-CC-C-155.ap-southeast-1.compute.internal   *                     *                             154m (3%)      154m (3%)    240m (6%)    1801Mi (11%)      1801Mi (11%)    4445Mi (28%)
+ip-CCC-CC-C-155.ap-southeast-1.compute.internal   kie7m-prometheus      prometheus-kie7m-0            154m (3%)      154m (3%)    63m (1%)     1801Mi (11%)      1801Mi (11%)    1394Mi (8%)
+                                                                                                                                                                                 
+ip-CCC-CC-C-171.ap-southeast-1.compute.internal   *                     *                             550m (13%)     0m (0%)      353m (8%)    10290Mi (66%)     0Mi (0%)        8564Mi (55%)
+ip-CCC-CC-C-171.ap-southeast-1.compute.internal   monitoring            prometheus-7bcf75cfbb-mb4pl   550m (13%)     0m (0%)      511m (12%)   10290Mi (66%)     0Mi (0%)        6583Mi (42%)
+                                                                                                                                                                                 
+ip-CCC-CC-C-174.ap-southeast-1.compute.internal   *                     *                             0m (0%)        0m (0%)      494m (12%)   0Mi (0%)          0Mi (0%)        2656Mi (17%)
+                                                                                                                                                                                 
+ip-CCC-CC-C-187.ap-southeast-1.compute.internal   *                     *                             0m (0%)        0m (0%)      292m (7%)    0Mi (0%)          0Mi (0%)        2291Mi (14%)
+                                                                                                                                                                                 
+ip-CCC-CC-C-190.ap-southeast-1.compute.internal   *                     *                             638m (15%)     638m (15%)   449m (11%)   7188Mi (46%)      7188Mi (46%)    7677Mi (49%)
+ip-CCC-CC-C-190.ap-southeast-1.compute.internal   eiy1u-prometheus      prometheus-eiy1u-0            638m (15%)     638m (15%)   267m (6%)    7188Mi (46%)      7188Mi (46%)    5128Mi (32%)
+# salamander
+NODE                                         NAMESPACE           POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL     MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                            *                   *                             1724m (3%)     174m (0%)    2899m (5%)   15965Mi (7%)      2603Mi (1%)     22137Mi (10%)
+                                                                                                                                                                          
+ip-DDD-DD-D-154.us-west-2.compute.internal   *                   *                             0m (0%)        0m (0%)      697m (17%)   0Mi (0%)          0Mi (0%)        2605Mi (16%)
+                                                                                                                                                                          
+ip-DDD-DD-D-155.us-west-2.compute.internal   *                   *                             0m (0%)        0m (0%)      207m (2%)    0Mi (0%)          0Mi (0%)        2228Mi (7%)
+                                                                                                                                                                          
+ip-DDD-DD-D-158.us-west-2.compute.internal   *                   *                             174m (2%)      174m (2%)    707m (8%)    2603Mi (8%)       2603Mi (8%)     5282Mi (16%)
+ip-DDD-DD-D-158.us-west-2.compute.internal   salamander-prometheus   prometheus-salamander-0           174m (2%)      174m (2%)    76m (0%)     2603Mi (8%)       2603Mi (8%)     2037Mi (6%)
+                                                                                                                                                                          
+ip-DDD-DD-D-167.us-west-2.compute.internal   *                   *                             0m (0%)        0m (0%)      347m (8%)    0Mi (0%)          0Mi (0%)        2100Mi (13%)
+                                                                                                                                                                          
+ip-DDD-DD-D-170.us-west-2.compute.internal   *                   *                             0m (0%)        0m (0%)      257m (3%)    0Mi (0%)          0Mi (0%)        2687Mi (8%)
+                                                                                                                                                                          
+ip-DDD-DD-D-182.us-west-2.compute.internal   *                   *                             0m (0%)        0m (0%)      242m (3%)    0Mi (0%)          0Mi (0%)        2328Mi (7%)
+                                                                                                                                                                          
+ip-DDD-DD-D-188.us-west-2.compute.internal   *                   *                             1550m (19%)    0m (0%)      148m (1%)    13362Mi (42%)     0Mi (0%)        2848Mi (9%)
+ip-DDD-DD-D-188.us-west-2.compute.internal   monitoring          prometheus-68557b88dd-q5894   1550m (19%)    0m (0%)      22m (0%)     13362Mi (42%)     0Mi (0%)        919Mi (2%)
+                                                                                                                                                                          
+ip-DDD-DD-D-190.us-west-2.compute.internal   *                   *                             0m (0%)        0m (0%)      298m (7%)    0Mi (0%)          0Mi (0%)        2055Mi (13%)
+# unicorn
+NODE                                          NAMESPACE           POD                           CPU REQUESTS   CPU LIMITS    CPU UTIL      MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                             *                   *                             4031m (9%)     2481m (5%)    3980m (9%)    44757Mi (26%)     31395Mi (18%)   48194Mi (28%)
+                                                                                                                                                                             
+ip-EEE-EE-E-155.cn-north-1.compute.internal   *                   *                             0m (0%)        0m (0%)       525m (13%)    0Mi (0%)          0Mi (0%)        2368Mi (15%)
+                                                                                                                                                                             
+ip-EEE-EE-E-157.cn-north-1.compute.internal   *                   *                             1179m (14%)    1179m (14%)   1031m (12%)   14398Mi (46%)     14398Mi (46%)   8284Mi (26%)
+ip-EEE-EE-E-157.cn-north-1.compute.internal   no1oa-prometheus    prometheus-no1oa-0            1179m (14%)    1179m (14%)   182m (2%)     14398Mi (46%)     14398Mi (46%)   5867Mi (18%)
+                                                                                                                                                                             
+ip-EEE-EE-E-158.cn-north-1.compute.internal   *                   *                             178m (2%)      178m (2%)     373m (4%)     3008Mi (9%)       3008Mi (9%)     4603Mi (14%)
+ip-EEE-EE-E-158.cn-north-1.compute.internal   ahph8-prometheus    prometheus-ahph8-0            104m (1%)      104m (1%)     38m (0%)      1301Mi (4%)       1301Mi (4%)     821Mi (2%)
+ip-EEE-EE-E-158.cn-north-1.compute.internal   phoo5-prometheus    prometheus-phoo5-0            74m (0%)       74m (0%)      24m (0%)      1707Mi (5%)       1707Mi (5%)     627Mi (1%)
+                                                                                                                                                                             
+ip-EEE-EE-E-172.cn-north-1.compute.internal   *                   *                             1550m (19%)    0m (0%)       632m (7%)     13362Mi (42%)     0Mi (0%)        15543Mi (49%)
+ip-EEE-EE-E-172.cn-north-1.compute.internal   monitoring          prometheus-7df86b8db7-68mfk   1550m (19%)    0m (0%)       391m (4%)     13362Mi (42%)     0Mi (0%)        12931Mi (41%)
+                                                                                                                                                                             
+ip-EEE-EE-E-173.cn-north-1.compute.internal   *                   *                             0m (0%)        0m (0%)       434m (10%)    0Mi (0%)          0Mi (0%)        2251Mi (14%)
+                                                                                                                                                                             
+ip-EEE-EE-E-174.cn-north-1.compute.internal   *                   *                             1124m (14%)    1124m (14%)   627m (7%)     13987Mi (44%)     13987Mi (44%)   12820Mi (40%)
+ip-EEE-EE-E-174.cn-north-1.compute.internal   unicorn-prometheus   prometheus-unicorn-0           193m (2%)      193m (2%)     90m (1%)      2742Mi (8%)       2742Mi (8%)     2240Mi (7%)
+ip-EEE-EE-E-174.cn-north-1.compute.internal   legh2-prometheus    prometheus-legh2-0            931m (11%)     931m (11%)    319m (3%)     11245Mi (35%)     11245Mi (35%)   7351Mi (23%)
+                                                                                                                                                                             
+ip-EEE-EE-E-189.cn-north-1.compute.internal   *                   *                             0m (0%)        0m (0%)       362m (9%)     0Mi (0%)          0Mi (0%)        2321Mi (14%)
+# vervet
+NODE                                         NAMESPACE           POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL     MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                            *                   *                             5115m (6%)     565m (0%)    3934m (5%)   67298Mi (22%)     7856Mi (2%)     28290Mi (9%)
+                                                                                                                                                                          
+ip-FFF-FF-F-151.eu-west-1.compute.internal   *                   *                             0m (0%)        0m (0%)      356m (8%)    0Mi (0%)          0Mi (0%)        2374Mi (15%)
+                                                                                                                                                                          
+ip-FFF-FF-F-154.eu-west-1.compute.internal   *                   *                             337m (2%)      337m (2%)    322m (2%)    4778Mi (7%)       4778Mi (7%)     7448Mi (11%)
+ip-FFF-FF-F-154.eu-west-1.compute.internal   as1sh-prometheus    prometheus-as1sh-0            89m (0%)       89m (0%)     30m (0%)     1101Mi (1%)       1101Mi (1%)     842Mi (1%)
+ip-FFF-FF-F-154.eu-west-1.compute.internal   sha4o-prometheus    prometheus-sha4o-0            74m (0%)       74m (0%)     42m (0%)     1074Mi (1%)       1074Mi (1%)     546Mi (0%)
+ip-FFF-FF-F-154.eu-west-1.compute.internal   vervet-prometheus   prometheus-vervet-0           174m (1%)      174m (1%)    53m (0%)     2603Mi (4%)       2603Mi (4%)     1977Mi (3%)
+                                                                                                                                                                          
+ip-FFF-FF-F-199.eu-west-1.compute.internal   *                   *                             0m (0%)        0m (0%)      817m (20%)   0Mi (0%)          0Mi (0%)        2325Mi (15%)
+                                                                                                                                                                          
+ip-FFF-FF-F-205.eu-west-1.compute.internal   *                   *                             4550m (28%)    0m (0%)      240m (1%)    59442Mi (93%)     0Mi (0%)        4186Mi (6%)
+ip-FFF-FF-F-205.eu-west-1.compute.internal   monitoring          prometheus-5cfd4875b8-tfnph   4550m (28%)    0m (0%)      78m (0%)     59442Mi (93%)     0Mi (0%)        2373Mi (3%)
+                                                                                                                                                                          
+ip-FFF-FF-F-206.eu-west-1.compute.internal   *                   *                             74m (0%)       74m (0%)     1436m (8%)   1074Mi (1%)       1074Mi (1%)     4793Mi (7%)
+ip-FFF-FF-F-206.eu-west-1.compute.internal   oop3p-prometheus    prometheus-oop3p-0            74m (0%)       74m (0%)     60m (0%)     1074Mi (1%)       1074Mi (1%)     628Mi (1%)
+                                                                                                                                                                          
+ip-FFF-FF-F-216.eu-west-1.compute.internal   *                   *                             154m (0%)      154m (0%)    454m (2%)    2003Mi (3%)       2003Mi (3%)     5149Mi (8%)
+ip-FFF-FF-F-216.eu-west-1.compute.internal   ti6iz-prometheus    prometheus-ti6iz-0            154m (0%)      154m (0%)    91m (0%)     2003Mi (3%)       2003Mi (3%)     1483Mi (2%)
+                                                                                                                                                                          
+ip-FFF-FF-F-221.eu-west-1.compute.internal   *                   *                             0m (0%)        0m (0%)      311m (7%)    0Mi (0%)          0Mi (0%)        2012Mi (13%)
+# werewolf
+NODE                                              NAMESPACE             POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL     MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                                 *                     *                             743m (2%)      193m (0%)    2758m (8%)   12893Mi (10%)     2603Mi (2%)     22036Mi (17%)
+                                                                                                                                                                                 
+ip-GGG-GG-G-149.ap-southeast-1.compute.internal   *                     *                             0m (0%)        0m (0%)      397m (9%)    0Mi (0%)          0Mi (0%)        2682Mi (17%)
+                                                                                                                                                                                 
+ip-GGG-GG-G-150.ap-southeast-1.compute.internal   *                     *                             0m (0%)        0m (0%)      199m (4%)    0Mi (0%)          0Mi (0%)        2073Mi (13%)
+                                                                                                                                                                                 
+ip-GGG-GG-G-167.ap-southeast-1.compute.internal   *                     *                             0m (0%)        0m (0%)      158m (3%)    0Mi (0%)          0Mi (0%)        2144Mi (13%)
+                                                                                                                                                                                 
+ip-GGG-GG-G-170.ap-southeast-1.compute.internal   *                     *                             0m (0%)        0m (0%)      483m (12%)   0Mi (0%)          0Mi (0%)        2458Mi (15%)
+                                                                                                                                                                                 
+ip-GGG-GG-G-174.ap-southeast-1.compute.internal   *                     *                             0m (0%)        0m (0%)      506m (12%)   0Mi (0%)          0Mi (0%)        2527Mi (16%)
+                                                                                                                                                                                 
+ip-GGG-GG-G-182.ap-southeast-1.compute.internal   *                     *                             550m (13%)     0m (0%)      126m (3%)    10290Mi (66%)     0Mi (0%)        2750Mi (17%)
+ip-GGG-GG-G-182.ap-southeast-1.compute.internal   monitoring            prometheus-56b77774f4-x5gql   550m (13%)     0m (0%)      31m (0%)     10290Mi (66%)     0Mi (0%)        976Mi (6%)
+                                                                                                                                                                                 
+ip-GGG-GG-G-186.ap-southeast-1.compute.internal   *                     *                             0m (0%)        0m (0%)      436m (10%)   0Mi (0%)          0Mi (0%)        2278Mi (14%)
+                                                                                                                                                                                 
+ip-GGG-GG-G-190.ap-southeast-1.compute.internal   *                     *                             193m (4%)      193m (4%)    457m (11%)   2603Mi (16%)      2603Mi (16%)    5121Mi (32%)
+ip-GGG-GG-G-190.ap-southeast-1.compute.internal   werewolf-prometheus   prometheus-werewolf-0         193m (4%)      193m (4%)    126m (3%)    2603Mi (16%)      2603Mi (16%)    1988Mi (12%)
+# yak
+NODE                                          NAMESPACE              POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL     MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                             *                      *                             793m (2%)      243m (0%)    2347m (8%)   14345Mi (13%)     4055Mi (3%)     21557Mi (19%)
+                                                                                                                                                                              
+ip-HH-H-H-114.eu-central-1.compute.internal   *                      *                             550m (13%)     0m (0%)      145m (3%)    10290Mi (66%)     0Mi (0%)        2523Mi (16%)
+ip-HH-H-H-114.eu-central-1.compute.internal   monitoring             prometheus-667ccb6454-bg2gm   550m (13%)     0m (0%)      29m (0%)     10290Mi (66%)     0Mi (0%)        868Mi (5%)
+                                                                                                                                                                              
+ip-HH-H-H-115.eu-central-1.compute.internal   *                      *                             0m (0%)        0m (0%)      471m (11%)   0Mi (0%)          0Mi (0%)        3684Mi (23%)
+                                                                                                                                                                              
+ip-HH-H-H-169.eu-central-1.compute.internal   *                      *                             154m (3%)      154m (3%)    287m (7%)    2603Mi (16%)      2603Mi (16%)    3382Mi (21%)
+ip-HH-H-H-169.eu-central-1.compute.internal   yak-prometheus   prometheus-yak-0        154m (3%)      154m (3%)    63m (1%)     2603Mi (16%)      2603Mi (16%)    1692Mi (10%)
+                                                                                                                                                                              
+ip-HH-H-H-171.eu-central-1.compute.internal   *                      *                             0m (0%)        0m (0%)      431m (10%)   0Mi (0%)          0Mi (0%)        2625Mi (17%)
+                                                                                                                                                                              
+ip-HH-H-H-18.eu-central-1.compute.internal    *                      *                             89m (2%)       89m (2%)     219m (5%)    1452Mi (9%)       1452Mi (9%)     2682Mi (17%)
+ip-HH-H-H-18.eu-central-1.compute.internal    ohn6c-prometheus       prometheus-ohn6c-0            89m (2%)       89m (2%)     60m (1%)     1452Mi (9%)       1452Mi (9%)     855Mi (5%)
+                                                                                                                                                                              
+ip-HH-H-H-23.eu-central-1.compute.internal    *                      *                             0m (0%)        0m (0%)      592m (14%)   0Mi (0%)          0Mi (0%)        4729Mi (30%)
+                                                                                                                                                                              
+ip-HH-H-H-71.eu-central-1.compute.internal    *                      *                             0m (0%)        0m (0%)      205m (5%)    0Mi (0%)          0Mi (0%)        1929Mi (12%)
+# zapus
+NODE                                          NAMESPACE         POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL      MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                             *                 *                             743m (2%)      193m (0%)    4070m (14%)   12893Mi (11%)     2603Mi (2%)     29959Mi (27%)
+                                                                                                                                                                          
+ip-HH-H-H-113.eu-central-1.compute.internal   *                 *                             0m (0%)        0m (0%)      1492m (37%)   0Mi (0%)          0Mi (0%)        5693Mi (36%)
+                                                                                                                                                                          
+ip-HH-H-H-115.eu-central-1.compute.internal   *                 *                             0m (0%)        0m (0%)      341m (8%)     0Mi (0%)          0Mi (0%)        2589Mi (16%)
+                                                                                                                                                                          
+ip-HH-H-H-172.eu-central-1.compute.internal   *                 *                             0m (0%)        0m (0%)      514m (12%)    0Mi (0%)          0Mi (0%)        4729Mi (30%)
+                                                                                                                                                                          
+ip-HH-H-H-189.eu-central-1.compute.internal   *                 *                             193m (4%)      193m (4%)    514m (12%)    2603Mi (16%)      2603Mi (16%)    4865Mi (31%)
+ip-HH-H-H-189.eu-central-1.compute.internal   zapus-prometheus   prometheus-zapus-0             193m (4%)      193m (4%)    159m (3%)     2603Mi (16%)      2603Mi (16%)    1868Mi (12%)
+                                                                                                                                                                          
+ip-HH-H-H-26.eu-central-1.compute.internal    *                 *                             0m (0%)        0m (0%)      525m (13%)    0Mi (0%)          0Mi (0%)        4959Mi (31%)
+                                                                                                                                                                          
+ip-HH-H-H-37.eu-central-1.compute.internal    *                 *                             0m (0%)        0m (0%)      326m (8%)     0Mi (0%)          0Mi (0%)        2741Mi (17%)
+                                                                                                                                                                          
+ip-HH-H-H-40.eu-central-1.compute.internal    *                 *                             550m (13%)     0m (0%)      362m (9%)     10290Mi (66%)     0Mi (0%)        4380Mi (28%)
+ip-HH-H-H-40.eu-central-1.compute.internal    monitoring        prometheus-5dcbbb6b9c-nc4kx   550m (13%)     0m (0%)      21m (0%)      10290Mi (66%)     0Mi (0%)        849Mi (5%)
+# aardvark
+NODE                                       NAMESPACE          POD                          CPU REQUESTS   CPU LIMITS   CPU UTIL      MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                          *                  *                            1020m (3%)     470m (1%)    3804m (11%)   16607Mi (13%)     6317Mi (5%)     33422Mi (27%)
+                                                                                                                                                                       
+ip-HH-H-H-101.eu-west-1.compute.internal   *                  *                            235m (5%)      235m (5%)    571m (14%)    2888Mi (18%)      2888Mi (18%)    4884Mi (31%)
+ip-HH-H-H-101.eu-west-1.compute.internal   aardvark-prometheus   prometheus-aardvark-0           235m (5%)      235m (5%)    214m (5%)     2888Mi (18%)      2888Mi (18%)    2022Mi (13%)
+                                                                                                                                                                       
+ip-HH-H-H-11.eu-west-1.compute.internal    *                  *                            0m (0%)        0m (0%)      193m (4%)     0Mi (0%)          0Mi (0%)        2947Mi (18%)
+                                                                                                                                                                       
+ip-HH-H-H-156.eu-west-1.compute.internal   *                  *                            235m (5%)      235m (5%)    465m (11%)    3429Mi (22%)      3429Mi (22%)    4433Mi (28%)
+ip-HH-H-H-156.eu-west-1.compute.internal   eed2v-prometheus   prometheus-eed2v-0           115m (2%)      115m (2%)    20m (0%)      1124Mi (7%)       1124Mi (7%)     308Mi (2%)
+ip-HH-H-H-156.eu-west-1.compute.internal   ao1vi-prometheus   prometheus-ao1vi-0           46m (1%)       46m (1%)     21m (0%)      1074Mi (6%)       1074Mi (6%)     480Mi (3%)
+ip-HH-H-H-156.eu-west-1.compute.internal   ixaf4-prometheus   prometheus-ixaf4-0           74m (1%)       74m (1%)     42m (1%)      1231Mi (8%)       1231Mi (8%)     764Mi (4%)
+                                                                                                                                                                       
+ip-HH-H-H-183.eu-west-1.compute.internal   *                  *                            0m (0%)        0m (0%)      600m (15%)    0Mi (0%)          0Mi (0%)        4545Mi (29%)
+                                                                                                                                                                       
+ip-HH-H-H-5.eu-west-1.compute.internal     *                  *                            0m (0%)        0m (0%)      608m (15%)    0Mi (0%)          0Mi (0%)        4889Mi (31%)
+                                                                                                                                                                       
+ip-HH-H-H-52.eu-west-1.compute.internal    *                  *                            550m (13%)     0m (0%)      429m (10%)    10290Mi (67%)     0Mi (0%)        4306Mi (28%)
+ip-HH-H-H-52.eu-west-1.compute.internal    monitoring         prometheus-d666b7869-xqnrm   550m (13%)     0m (0%)      48m (1%)      10290Mi (67%)     0Mi (0%)        865Mi (5%)
+                                                                                                                                                                       
+ip-HH-H-H-92.eu-west-1.compute.internal    *                  *                            0m (0%)        0m (0%)      545m (13%)    0Mi (0%)          0Mi (0%)        4859Mi (31%)
+                                                                                                                                                                       
+ip-HH-H-H-98.eu-west-1.compute.internal    *                  *                            0m (0%)        0m (0%)      397m (9%)     0Mi (0%)          0Mi (0%)        2556Mi (16%)
+# cuttlefish
+NODE                                       NAMESPACE           POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL      MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                          *                   *                             937m (3%)      387m (1%)    5195m (18%)   16713Mi (15%)     6423Mi (5%)     37324Mi (34%)
+                                                                                                                                                                         
+ip-HH-H-H-183.eu-west-1.compute.internal   *                   *                             0m (0%)        0m (0%)      1427m (35%)   0Mi (0%)          0Mi (0%)        5482Mi (35%)
+                                                                                                                                                                         
+ip-HH-H-H-186.eu-west-1.compute.internal   *                   *                             295m (7%)      295m (7%)    645m (16%)    4275Mi (27%)      4275Mi (27%)    8258Mi (53%)
+ip-HH-H-H-186.eu-west-1.compute.internal   cuttlefish-prometheus   prometheus-cuttlefish-0           235m (5%)      235m (5%)    70m (1%)      3201Mi (20%)      3201Mi (20%)    2501Mi (16%)
+ip-HH-H-H-186.eu-west-1.compute.internal   ahng8-prometheus    prometheus-ahng8-0            60m (1%)       60m (1%)     31m (0%)      1074Mi (6%)       1074Mi (6%)     519Mi (3%)
+                                                                                                                                                                         
+ip-HH-H-H-40.eu-west-1.compute.internal    *                   *                             550m (13%)     0m (0%)      483m (12%)    10290Mi (66%)     0Mi (0%)        4991Mi (32%)
+ip-HH-H-H-40.eu-west-1.compute.internal    monitoring          prometheus-66f66698bc-sb4gs   550m (13%)     0m (0%)      45m (1%)      10290Mi (66%)     0Mi (0%)        1145Mi (7%)
+                                                                                                                                                                         
+ip-HH-H-H-43.eu-west-1.compute.internal    *                   *                             92m (2%)       92m (2%)     610m (15%)    2148Mi (13%)      2148Mi (13%)    4850Mi (31%)
+ip-HH-H-H-43.eu-west-1.compute.internal    ovei4-prometheus    prometheus-ovei4-0            46m (1%)       46m (1%)     28m (0%)      1074Mi (6%)       1074Mi (6%)     463Mi (3%)
+ip-HH-H-H-43.eu-west-1.compute.internal    ic7os-prometheus    prometheus-ic7os-0            46m (1%)       46m (1%)     23m (0%)      1074Mi (6%)       1074Mi (6%)     327Mi (2%)
+                                                                                                                                                                         
+ip-HH-H-H-52.eu-west-1.compute.internal    *                   *                             0m (0%)        0m (0%)      612m (15%)    0Mi (0%)          0Mi (0%)        5402Mi (34%)
+                                                                                                                                                                         
+ip-HH-H-H-82.eu-west-1.compute.internal    *                   *                             0m (0%)        0m (0%)      990m (24%)    0Mi (0%)          0Mi (0%)        5438Mi (35%)
+                                                                                                                                                                         
+ip-HH-H-H-87.eu-west-1.compute.internal    *                   *                             0m (0%)        0m (0%)      429m (10%)    0Mi (0%)          0Mi (0%)        2900Mi (18%)
+# dingo
+NODE                                        NAMESPACE            POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL      MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                           *                    *                             743m (2%)      193m (0%)    3465m (12%)   13330Mi (12%)     3040Mi (2%)     38302Mi (35%)
+                                                                                                                                                                           
+ip-HH-H-H-11.cn-north-1.compute.internal    *                    *                             0m (0%)        0m (0%)      855m (21%)    0Mi (0%)          0Mi (0%)        6181Mi (39%)
+                                                                                                                                                                           
+ip-HH-H-H-113.cn-north-1.compute.internal   *                    *                             193m (4%)      193m (4%)    475m (11%)    3040Mi (19%)      3040Mi (19%)    6499Mi (41%)
+ip-HH-H-H-113.cn-north-1.compute.internal   dingo-prometheus   prometheus-dingo-0          193m (4%)      193m (4%)    58m (1%)      3040Mi (19%)      3040Mi (19%)    2227Mi (14%)
+                                                                                                                                                                           
+ip-HH-H-H-150.cn-north-1.compute.internal   *                    *                             0m (0%)        0m (0%)      418m (10%)    0Mi (0%)          0Mi (0%)        5013Mi (32%)
+                                                                                                                                                                           
+ip-HH-H-H-18.cn-north-1.compute.internal    *                    *                             0m (0%)        0m (0%)      446m (11%)    0Mi (0%)          0Mi (0%)        4270Mi (27%)
+                                                                                                                                                                           
+ip-HH-H-H-185.cn-north-1.compute.internal   *                    *                             0m (0%)        0m (0%)      439m (10%)    0Mi (0%)          0Mi (0%)        5655Mi (36%)
+                                                                                                                                                                           
+ip-HH-H-H-77.cn-north-1.compute.internal    *                    *                             550m (13%)     0m (0%)      350m (8%)     10290Mi (66%)     0Mi (0%)        4919Mi (31%)
+ip-HH-H-H-77.cn-north-1.compute.internal    monitoring           prometheus-68557669d9-rgbss   550m (13%)     0m (0%)      24m (0%)      10290Mi (66%)     0Mi (0%)        1023Mi (6%)
+                                                                                                                                                                           
+ip-HH-H-H-85.cn-north-1.compute.internal    *                    *                             0m (0%)        0m (0%)      485m (12%)    0Mi (0%)          0Mi (0%)        5762Mi (37%)
+# ermine
+NODE                                          NAMESPACE            POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL      MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                             *                    *                             2219m (6%)     1669m (5%)   4278m (13%)   36663Mi (29%)     26373Mi (21%)   46164Mi (37%)
+                                                                                                                                                                             
+ip-HH-H-H-109.eu-central-1.compute.internal   *                    *                             0m (0%)        0m (0%)      763m (19%)    0Mi (0%)          0Mi (0%)        5211Mi (33%)
+                                                                                                                                                                             
+ip-HH-H-H-12.eu-central-1.compute.internal    *                    *                             0m (0%)        0m (0%)      307m (7%)     0Mi (0%)          0Mi (0%)        2148Mi (13%)
+                                                                                                                                                                             
+ip-HH-H-H-149.eu-central-1.compute.internal   *                    *                             0m (0%)        0m (0%)      320m (8%)     0Mi (0%)          0Mi (0%)        2800Mi (18%)
+                                                                                                                                                                             
+ip-HH-H-H-170.eu-central-1.compute.internal   *                    *                             0m (0%)        0m (0%)      730m (18%)    0Mi (0%)          0Mi (0%)        2708Mi (17%)
+                                                                                                                                                                             
+ip-HH-H-H-27.eu-central-1.compute.internal    *                    *                             544m (13%)     544m (13%)   479m (11%)    7340Mi (47%)      7340Mi (47%)    8891Mi (57%)
+ip-HH-H-H-27.eu-central-1.compute.internal    eic2i-prometheus     prometheus-eic2i-0            137m (3%)      137m (3%)    100m (2%)     1618Mi (10%)      1618Mi (10%)    1115Mi (7%)
+ip-HH-H-H-27.eu-central-1.compute.internal    ermine-prometheus   prometheus-ermine-0          258m (6%)      258m (6%)    94m (2%)      3546Mi (23%)      3546Mi (23%)    2364Mi (15%)
+ip-HH-H-H-27.eu-central-1.compute.internal    hees9-prometheus     prometheus-hees9-0            89m (2%)       89m (2%)     35m (0%)      1101Mi (7%)       1101Mi (7%)     732Mi (4%)
+ip-HH-H-H-27.eu-central-1.compute.internal    ge1ph-prometheus     prometheus-ge1ph-0            60m (1%)       60m (1%)     38m (0%)      1074Mi (6%)       1074Mi (6%)     609Mi (3%)
+                                                                                                                                                                             
+ip-HH-H-H-34.eu-central-1.compute.internal    *                    *                             550m (13%)     0m (0%)      529m (13%)    10290Mi (66%)     0Mi (0%)        9690Mi (62%)
+ip-HH-H-H-34.eu-central-1.compute.internal    monitoring           prometheus-647f7c75ff-klxg2   550m (13%)     0m (0%)      240m (6%)     10290Mi (66%)     0Mi (0%)        7789Mi (50%)
+                                                                                                                                                                             
+ip-HH-H-H-84.eu-central-1.compute.internal    *                    *                             877m (21%)     877m (21%)   851m (21%)    10016Mi (65%)     10016Mi (65%)   9643Mi (62%)
+ip-HH-H-H-84.eu-central-1.compute.internal    be0oo-prometheus     prometheus-be0oo-0            104m (2%)      104m (2%)    84m (2%)      1164Mi (7%)       1164Mi (7%)     657Mi (4%)
+ip-HH-H-H-84.eu-central-1.compute.internal    aegh1-prometheus     prometheus-aegh1-0            174m (4%)      174m (4%)    73m (1%)      1618Mi (10%)      1618Mi (10%)    1036Mi (6%)
+ip-HH-H-H-84.eu-central-1.compute.internal    sho3o-prometheus     prometheus-sho3o-0            74m (1%)       74m (1%)     28m (0%)      1074Mi (6%)       1074Mi (6%)     624Mi (4%)
+ip-HH-H-H-84.eu-central-1.compute.internal    do3eb-prometheus     prometheus-do3eb-0            193m (4%)      193m (4%)    167m (4%)     2003Mi (13%)      2003Mi (13%)    1537Mi (10%)
+ip-HH-H-H-84.eu-central-1.compute.internal    pohv8-prometheus     prometheus-pohv8-0            104m (2%)      104m (2%)    37m (0%)      1374Mi (8%)       1374Mi (8%)     898Mi (5%)
+ip-HH-H-H-84.eu-central-1.compute.internal    quah9-prometheus     prometheus-quah9-0            154m (3%)      154m (3%)    75m (1%)      1707Mi (11%)      1707Mi (11%)    954Mi (6%)
+ip-HH-H-H-84.eu-central-1.compute.internal    aeph5-prometheus     prometheus-aeph5-0            74m (1%)       74m (1%)     52m (1%)      1074Mi (6%)       1074Mi (6%)     665Mi (4%)
+                                                                                                                                                                             
+ip-HH-H-H-95.eu-central-1.compute.internal    *                    *                             248m (6%)      248m (6%)    302m (7%)     9016Mi (58%)      9016Mi (58%)    5068Mi (32%)
+ip-HH-H-H-95.eu-central-1.compute.internal    oqu3a-prometheus     prometheus-oqu3a-0            174m (4%)      174m (4%)    45m (1%)      7942Mi (51%)      7942Mi (51%)    2380Mi (15%)
+ip-HH-H-H-95.eu-central-1.compute.internal    tae0m-prometheus     prometheus-tae0m-0            74m (1%)       74m (1%)     19m (0%)      1074Mi (6%)       1074Mi (6%)     646Mi (4%)
+# tahr
+NODE                                       NAMESPACE           POD                          CPU REQUESTS   CPU LIMITS   CPU UTIL      MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                          *                   *                            933m (3%)      383m (1%)    3643m (13%)   15515Mi (14%)     5225Mi (4%)     25263Mi (23%)
+                                                                                                                                                                        
+ip-HH-H-H-115.us-east-2.compute.internal   *                   *                            120m (3%)      120m (3%)    296m (7%)     1301Mi (8%)       1301Mi (8%)     4432Mi (28%)
+ip-HH-H-H-115.us-east-2.compute.internal   yei3a-prometheus    prometheus-yei3a-0           120m (3%)      120m (3%)    64m (1%)      1301Mi (8%)       1301Mi (8%)     1002Mi (6%)
+                                                                                                                                                                        
+ip-HH-H-H-161.us-east-2.compute.internal   *                   *                            263m (6%)      263m (6%)    318m (7%)     3923Mi (25%)      3923Mi (25%)    5634Mi (36%)
+ip-HH-H-H-161.us-east-2.compute.internal   xeil8-prometheus    prometheus-xeil8-0           89m (2%)       89m (2%)     67m (1%)      1452Mi (9%)       1452Mi (9%)     789Mi (5%)
+ip-HH-H-H-161.us-east-2.compute.internal   tahr-prometheus   prometheus-tahr-0          174m (4%)      174m (4%)    138m (3%)     2471Mi (15%)      2471Mi (15%)    1930Mi (12%)
+                                                                                                                                                                        
+ip-HH-H-H-17.us-east-2.compute.internal    *                   *                            0m (0%)        0m (0%)      300m (7%)     0Mi (0%)          0Mi (0%)        3938Mi (25%)
+                                                                                                                                                                        
+ip-HH-H-H-181.us-east-2.compute.internal   *                   *                            0m (0%)        0m (0%)      379m (9%)     0Mi (0%)          0Mi (0%)        2345Mi (15%)
+                                                                                                                                                                        
+ip-HH-H-H-42.us-east-2.compute.internal    *                   *                            550m (13%)     0m (0%)      457m (11%)    10290Mi (66%)     0Mi (0%)        3933Mi (25%)
+ip-HH-H-H-42.us-east-2.compute.internal    monitoring          prometheus-87bcbf5b8-l2nl2   550m (13%)     0m (0%)      157m (3%)     10290Mi (66%)     0Mi (0%)        1431Mi (9%)
+                                                                                                                                                                        
+ip-HH-H-H-52.us-east-2.compute.internal    *                   *                            0m (0%)        0m (0%)      1023m (25%)   0Mi (0%)          0Mi (0%)        2393Mi (15%)
+                                                                                                                                                                        
+ip-HH-H-H-86.us-east-2.compute.internal    *                   *                            0m (0%)        0m (0%)      873m (21%)    0Mi (0%)          0Mi (0%)        2584Mi (16%)
+# xerus
+NODE                                          NAMESPACE          POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL     MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                             *                  *                             2984m (6%)     1434m (3%)   3868m (8%)   38520Mi (22%)     17990Mi (10%)   38664Mi (22%)
+                                                                                                                                                                          
+ip-HH-H-H-106.eu-central-1.compute.internal   *                  *                             1550m (19%)    0m (0%)      979m (12%)   20530Mi (65%)     0Mi (0%)        6982Mi (22%)
+ip-HH-H-H-106.eu-central-1.compute.internal   monitoring         prometheus-596c64b7f9-wtndc   1550m (19%)    0m (0%)      683m (8%)    20530Mi (65%)     0Mi (0%)        5609Mi (17%)
+                                                                                                                                                                          
+ip-HH-H-H-126.eu-central-1.compute.internal   *                  *                             0m (0%)        0m (0%)      455m (11%)   0Mi (0%)          0Mi (0%)        2465Mi (16%)
+                                                                                                                                                                          
+ip-HH-H-H-155.eu-central-1.compute.internal   *                  *                             577m (7%)      577m (7%)    606m (7%)    7548Mi (23%)      7548Mi (23%)    9133Mi (28%)
+ip-HH-H-H-155.eu-central-1.compute.internal   eis6k-prometheus   prometheus-eis6k-0            120m (1%)      120m (1%)    69m (0%)     1533Mi (4%)       1533Mi (4%)     1125Mi (3%)
+ip-HH-H-H-155.eu-central-1.compute.internal   xerus-prometheus    prometheus-xerus-0             214m (2%)      214m (2%)    155m (1%)    3040Mi (9%)       3040Mi (9%)     2337Mi (7%)
+ip-HH-H-H-155.eu-central-1.compute.internal   ux0ei-prometheus   prometheus-ux0ei-0            89m (1%)       89m (1%)     38m (0%)     1074Mi (3%)       1074Mi (3%)     771Mi (2%)
+ip-HH-H-H-155.eu-central-1.compute.internal   xing0-prometheus   prometheus-xing0-0            154m (1%)      154m (1%)    87m (1%)     1900Mi (6%)       1900Mi (6%)     1365Mi (4%)
+                                                                                                                                                                          
+ip-HH-H-H-162.eu-central-1.compute.internal   *                  *                             0m (0%)        0m (0%)      252m (6%)    0Mi (0%)          0Mi (0%)        2054Mi (13%)
+                                                                                                                                                                          
+ip-HH-H-H-45.eu-central-1.compute.internal    *                  *                             0m (0%)        0m (0%)      442m (11%)   0Mi (0%)          0Mi (0%)        2569Mi (16%)
+                                                                                                                                                                          
+ip-HH-H-H-61.eu-central-1.compute.internal    *                  *                             104m (1%)      104m (1%)    276m (3%)    1231Mi (3%)       1231Mi (3%)     4508Mi (14%)
+ip-HH-H-H-61.eu-central-1.compute.internal    iv1ru-prometheus   prometheus-iv1ru-0            104m (1%)      104m (1%)    42m (0%)     1231Mi (3%)       1231Mi (3%)     947Mi (3%)
+                                                                                                                                                                          
+ip-HH-H-H-92.eu-central-1.compute.internal    *                  *                             753m (9%)      753m (9%)    862m (10%)   9211Mi (29%)      9211Mi (29%)    10951Mi (35%)
+ip-HH-H-H-92.eu-central-1.compute.internal    shur9-prometheus   prometheus-shur9-0            74m (0%)       74m (0%)     23m (0%)     1074Mi (3%)       1074Mi (3%)     727Mi (2%)
+ip-HH-H-H-92.eu-central-1.compute.internal    ai1wu-prometheus   prometheus-ai1wu-0            104m (1%)      104m (1%)    37m (0%)     1301Mi (4%)       1301Mi (4%)     932Mi (2%)
+ip-HH-H-H-92.eu-central-1.compute.internal    aiw5o-prometheus   prometheus-aiw5o-0            334m (4%)      334m (4%)    240m (3%)    3927Mi (12%)      3927Mi (12%)    3358Mi (10%)
+ip-HH-H-H-92.eu-central-1.compute.internal    cah1m-prometheus   prometheus-cah1m-0            137m (1%)      137m (1%)    90m (1%)     1533Mi (4%)       1533Mi (4%)     1037Mi (3%)
+ip-HH-H-H-92.eu-central-1.compute.internal    ai8xu-prometheus   prometheus-ai8xu-0            104m (1%)      104m (1%)    52m (0%)     1374Mi (4%)       1374Mi (4%)     931Mi (2%)
+# beaver
+NODE                           NAMESPACE          POD                           CPU REQUESTS   CPU LIMITS    CPU UTIL       MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                              *                  *                             7955m (10%)    7405m (9%)    11192m (14%)   108658Mi (36%)    98368Mi (32%)   127339Mi (42%)
+                                                                                                                                                              
+ip-II-III-I-149.ec2.internal   *                  *                             1576m (9%)     1576m (9%)    1190m (7%)     20355Mi (32%)     20355Mi (32%)   18902Mi (29%)
+ip-II-III-I-149.ec2.internal   ak6ie-prometheus   prometheus-ak6ie-0            137m (0%)      137m (0%)     56m (0%)       2003Mi (3%)       2003Mi (3%)     1492Mi (2%)
+ip-II-III-I-149.ec2.internal   fu2ue-prometheus   prometheus-fu2ue-0            174m (1%)      174m (1%)     60m (0%)       2345Mi (3%)       2345Mi (3%)     1677Mi (2%)
+ip-II-III-I-149.ec2.internal   ohm4v-prometheus   prometheus-ohm4v-0            137m (0%)      137m (0%)     56m (0%)       1618Mi (2%)       1618Mi (2%)     1203Mi (1%)
+ip-II-III-I-149.ec2.internal   eeth8-prometheus   prometheus-eeth8-0            193m (1%)      193m (1%)     57m (0%)       2603Mi (4%)       2603Mi (4%)     1815Mi (2%)
+ip-II-III-I-149.ec2.internal   zuy0i-prometheus   prometheus-zuy0i-0            193m (1%)      193m (1%)     107m (0%)      2603Mi (4%)       2603Mi (4%)     1494Mi (2%)
+ip-II-III-I-149.ec2.internal   sahs7-prometheus   prometheus-sahs7-0            137m (0%)      137m (0%)     43m (0%)       1801Mi (2%)       1801Mi (2%)     1174Mi (1%)
+ip-II-III-I-149.ec2.internal   ao1li-prometheus   prometheus-ao1li-0            193m (1%)      193m (1%)     137m (0%)      2226Mi (3%)       2226Mi (3%)     1615Mi (2%)
+ip-II-III-I-149.ec2.internal   ef1oh-prometheus   prometheus-ef1oh-0            154m (0%)      154m (0%)     107m (0%)      2112Mi (3%)       2112Mi (3%)     1423Mi (2%)
+ip-II-III-I-149.ec2.internal   tha9p-prometheus   prometheus-tha9p-0            258m (1%)      258m (1%)     107m (0%)      3040Mi (4%)       3040Mi (4%)     2247Mi (3%)
+                                                                                                                                                              
+ip-II-III-I-154.ec2.internal   *                  *                             0m (0%)        0m (0%)       692m (17%)     0Mi (0%)          0Mi (0%)        2594Mi (16%)
+                                                                                                                                                              
+ip-II-III-I-197.ec2.internal   *                  *                             1119m (6%)     569m (3%)     3617m (22%)    18370Mi (29%)     8080Mi (12%)    48251Mi (76%)
+ip-II-III-I-197.ec2.internal   monitoring         prometheus-6b777cfbd4-zw99x   550m (3%)      0m (0%)       1320m (8%)     10290Mi (16%)     0Mi (0%)        39927Mi (63%)
+ip-II-III-I-197.ec2.internal   iej7n-prometheus   prometheus-iej7n-0            334m (2%)      334m (2%)     166m (1%)      4347Mi (6%)       4347Mi (6%)     2989Mi (4%)
+ip-II-III-I-197.ec2.internal   beaver-prometheus    prometheus-beaver-0             235m (1%)      235m (1%)     71m (0%)       3732Mi (5%)       3732Mi (5%)     2642Mi (4%)
+                                                                                                                                                              
+ip-II-III-I-202.ec2.internal   *                  *                             1427m (8%)     1427m (8%)    1061m (6%)     22163Mi (34%)     22163Mi (34%)   16204Mi (25%)
+ip-II-III-I-202.ec2.internal   ooph2-prometheus   prometheus-ooph2-0            154m (0%)      154m (0%)     55m (0%)       1900Mi (2%)       1900Mi (2%)     1356Mi (2%)
+ip-II-III-I-202.ec2.internal   oo3ei-prometheus   prometheus-oo3ei-0            120m (0%)      120m (0%)     41m (0%)       1533Mi (2%)       1533Mi (2%)     1187Mi (1%)
+ip-II-III-I-202.ec2.internal   ooqu3-prometheus   prometheus-ooqu3-0            154m (0%)      154m (0%)     39m (0%)       2003Mi (3%)       2003Mi (3%)     1296Mi (2%)
+ip-II-III-I-202.ec2.internal   fa4ad-prometheus   prometheus-fa4ad-0            453m (2%)      453m (2%)     126m (0%)      10184Mi (16%)     10184Mi (16%)   3057Mi (4%)
+ip-II-III-I-202.ec2.internal   ur9ub-prometheus   prometheus-ur9ub-0            235m (1%)      235m (1%)     87m (0%)       2742Mi (4%)       2742Mi (4%)     1894Mi (2%)
+ip-II-III-I-202.ec2.internal   cho2h-prometheus   prometheus-cho2h-0            174m (1%)      174m (1%)     122m (0%)      1900Mi (2%)       1900Mi (2%)     1341Mi (2%)
+ip-II-III-I-202.ec2.internal   chah7-prometheus   prometheus-chah7-0            137m (0%)      137m (0%)     38m (0%)       1900Mi (2%)       1900Mi (2%)     1422Mi (2%)
+                                                                                                                                                              
+ip-II-III-I-206.ec2.internal   *                  *                             0m (0%)        0m (0%)       722m (18%)     0Mi (0%)          0Mi (0%)        3183Mi (20%)
+                                                                                                                                                              
+ip-II-III-I-213.ec2.internal   *                  *                             0m (0%)        0m (0%)       2037m (50%)    0Mi (0%)          0Mi (0%)        2633Mi (16%)
+                                                                                                                                                              
+ip-II-III-I-217.ec2.internal   *                  *                             3833m (23%)    3833m (23%)   1877m (11%)    47768Mi (75%)     47768Mi (75%)   35570Mi (56%)
+ip-II-III-I-217.ec2.internal   xoh2l-prometheus   prometheus-xoh2l-0            154m (0%)      154m (0%)     40m (0%)       1801Mi (2%)       1801Mi (2%)     1367Mi (2%)
+ip-II-III-I-217.ec2.internal   ie0ah-prometheus   prometheus-ie0ah-0            282m (1%)      282m (1%)     119m (0%)      3546Mi (5%)       3546Mi (5%)     2251Mi (3%)
+ip-II-III-I-217.ec2.internal   ha0sa-prometheus   prometheus-ha0sa-0            193m (1%)      193m (1%)     71m (0%)       3201Mi (5%)       3201Mi (5%)     1354Mi (2%)
+ip-II-III-I-217.ec2.internal   thoo7-prometheus   prometheus-thoo7-0            258m (1%)      258m (1%)     79m (0%)       3546Mi (5%)       3546Mi (5%)     2038Mi (3%)
+ip-II-III-I-217.ec2.internal   fahr4-prometheus   prometheus-fahr4-0            214m (1%)      214m (1%)     67m (0%)       2471Mi (3%)       2471Mi (3%)     1701Mi (2%)
+ip-II-III-I-217.ec2.internal   eeci8-prometheus   prometheus-eeci8-0            727m (4%)      727m (4%)     524m (3%)      7556Mi (11%)      7556Mi (11%)    5289Mi (8%)
+ip-II-III-I-217.ec2.internal   euri8-prometheus   prometheus-euri8-0            258m (1%)      258m (1%)     212m (1%)      3369Mi (5%)       3369Mi (5%)     2314Mi (3%)
+ip-II-III-I-217.ec2.internal   eigh3-prometheus   prometheus-eigh3-0            235m (1%)      235m (1%)     211m (1%)      3201Mi (5%)       3201Mi (5%)     2045Mi (3%)
+ip-II-III-I-217.ec2.internal   iep0i-prometheus   prometheus-iep0i-0            235m (1%)      235m (1%)     177m (1%)      2888Mi (4%)       2888Mi (4%)     2050Mi (3%)
+ip-II-III-I-217.ec2.internal   majo0-prometheus   prometheus-majo0-0            154m (0%)      154m (0%)     49m (0%)       2226Mi (3%)       2226Mi (3%)     1313Mi (2%)
+ip-II-III-I-217.ec2.internal   zoo0m-prometheus   prometheus-zoo0m-0            174m (1%)      174m (1%)     62m (0%)       2471Mi (3%)       2471Mi (3%)     1816Mi (2%)
+ip-II-III-I-217.ec2.internal   xohp9-prometheus   prometheus-xohp9-0            154m (0%)      154m (0%)     120m (0%)      1900Mi (2%)       1900Mi (2%)     1403Mi (2%)
+ip-II-III-I-217.ec2.internal   thae3-prometheus   prometheus-thae3-0            193m (1%)      193m (1%)     92m (0%)       2603Mi (4%)       2603Mi (4%)     1623Mi (2%)
+ip-II-III-I-217.ec2.internal   ich0n-prometheus   prometheus-ich0n-0            104m (0%)      104m (0%)     49m (0%)       1231Mi (1%)       1231Mi (1%)     897Mi (1%)
+ip-II-III-I-217.ec2.internal   lah8s-prometheus   prometheus-lah8s-0            361m (2%)      361m (2%)     132m (0%)      4132Mi (6%)       4132Mi (6%)     2726Mi (4%)
+ip-II-III-I-217.ec2.internal   duu3t-prometheus   prometheus-duu3t-0            137m (0%)      137m (0%)     97m (0%)       1618Mi (2%)       1618Mi (2%)     1151Mi (1%)
+# fossa
+NODE                                          NAMESPACE             POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL     MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                             *                     *                             897m (3%)      347m (1%)    2100m (7%)   15724Mi (7%)      5434Mi (2%)     20748Mi (9%)
+                                                                                                                                                                             
+ip-HH-H-H-123.eu-central-1.compute.internal   *                     *                             0m (0%)        0m (0%)      225m (5%)    0Mi (0%)          0Mi (0%)        2198Mi (6%)
+                                                                                                                                                                             
+ip-HH-H-H-189.eu-central-1.compute.internal   *                     *                             193m (4%)      193m (4%)    290m (7%)    2742Mi (8%)       2742Mi (8%)     3446Mi (10%)
+ip-HH-H-H-189.eu-central-1.compute.internal   fossa-prometheus   prometheus-fossa-0         193m (4%)      193m (4%)    133m (3%)    2742Mi (8%)       2742Mi (8%)     1700Mi (5%)
+                                                                                                                                                                             
+ip-HH-H-H-19.eu-central-1.compute.internal    *                     *                             154m (3%)      154m (3%)    301m (7%)    2692Mi (8%)       2692Mi (8%)     3978Mi (12%)
+ip-HH-H-H-19.eu-central-1.compute.internal    fee8u-prometheus      prometheus-fee8u-0            34m (0%)       34m (0%)     15m (0%)     1074Mi (3%)       1074Mi (3%)     80Mi (0%)
+ip-HH-H-H-19.eu-central-1.compute.internal    ii1ee-prometheus      prometheus-ii1ee-0            120m (3%)      120m (3%)    65m (1%)     1618Mi (5%)       1618Mi (5%)     1181Mi (3%)
+                                                                                                                                                                             
+ip-HH-H-H-190.eu-central-1.compute.internal   *                     *                             0m (0%)        0m (0%)      317m (7%)    0Mi (0%)          0Mi (0%)        2592Mi (8%)
+                                                                                                                                                                             
+ip-HH-H-H-25.eu-central-1.compute.internal    *                     *                             0m (0%)        0m (0%)      313m (7%)    0Mi (0%)          0Mi (0%)        2558Mi (8%)
+                                                                                                                                                                             
+ip-HH-H-H-83.eu-central-1.compute.internal    *                     *                             0m (0%)        0m (0%)      466m (11%)   0Mi (0%)          0Mi (0%)        2485Mi (7%)
+                                                                                                                                                                             
+ip-HH-H-H-91.eu-central-1.compute.internal    *                     *                             550m (13%)     0m (0%)      191m (4%)    10290Mi (32%)     0Mi (0%)        3488Mi (11%)
+ip-HH-H-H-91.eu-central-1.compute.internal    monitoring            prometheus-7b64ffb669-hg677   550m (13%)     0m (0%)      23m (0%)     10290Mi (32%)     0Mi (0%)        879Mi (2%)
+# gorilla
+NODE                                          NAMESPACE           POD                           CPU REQUESTS   CPU LIMITS    CPU UTIL       MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                             *                   *                             6725m (9%)     5675m (8%)    12091m (17%)   101642Mi (18%)    79064Mi (14%)   111319Mi (20%)
+                                                                                                                                                                              
+ip-HH-H-H-111.eu-central-1.compute.internal   *                   *                             1739m (21%)    689m (8%)     4606m (57%)    32510Mi (51%)     9932Mi (15%)    34147Mi (53%)
+ip-HH-H-H-111.eu-central-1.compute.internal   quoz4-prometheus    prometheus-quoz4-0            154m (1%)      154m (1%)     68m (0%)       2471Mi (3%)       2471Mi (3%)     1159Mi (1%)
+ip-HH-H-H-111.eu-central-1.compute.internal   imuz6-prometheus    prometheus-imuz6-0            120m (1%)      120m (1%)     91m (1%)       1533Mi (2%)       1533Mi (2%)     1102Mi (1%)
+ip-HH-H-H-111.eu-central-1.compute.internal   monitoring          prometheus-6547c66ddb-pm4d6   1050m (13%)    0m (0%)       2972m (37%)    22578Mi (35%)     0Mi (0%)        26296Mi (41%)
+ip-HH-H-H-111.eu-central-1.compute.internal   quah9-prometheus    prometheus-quah9-0            104m (1%)      104m (1%)     52m (0%)       1801Mi (2%)       1801Mi (2%)     1303Mi (2%)
+ip-HH-H-H-111.eu-central-1.compute.internal   xie3m-prometheus    prometheus-xie3m-0            174m (2%)      174m (2%)     71m (0%)       2226Mi (3%)       2226Mi (3%)     1642Mi (2%)
+ip-HH-H-H-111.eu-central-1.compute.internal   ea8wi-prometheus    prometheus-ea8wi-0            137m (1%)      137m (1%)     110m (1%)      1900Mi (2%)       1900Mi (2%)     1261Mi (1%)
+                                                                                                                                                                              
+ip-HH-H-H-135.eu-central-1.compute.internal   *                   *                             0m (0%)        0m (0%)       492m (12%)     0Mi (0%)          0Mi (0%)        2598Mi (8%)
+                                                                                                                                                                              
+ip-HH-H-H-15.eu-central-1.compute.internal    *                   *                             600m (7%)      600m (7%)     481m (6%)      8453Mi (13%)      8453Mi (13%)    9690Mi (15%)
+ip-HH-H-H-15.eu-central-1.compute.internal    eegh3-prometheus    prometheus-eegh3-0            120m (1%)      120m (1%)     51m (0%)       1618Mi (2%)       1618Mi (2%)     1103Mi (1%)
+ip-HH-H-H-15.eu-central-1.compute.internal    in8ak-prometheus    prometheus-in8ak-0            74m (0%)       74m (0%)      41m (0%)       1074Mi (1%)       1074Mi (1%)     591Mi (0%)
+ip-HH-H-H-15.eu-central-1.compute.internal    hoh1a-prometheus    prometheus-hoh1a-0            104m (1%)      104m (1%)     34m (0%)       1452Mi (2%)       1452Mi (2%)     1051Mi (1%)
+ip-HH-H-H-15.eu-central-1.compute.internal    phu1e-prometheus    prometheus-phu1e-0            74m (0%)       74m (0%)      55m (0%)       1231Mi (1%)       1231Mi (1%)     857Mi (1%)
+ip-HH-H-H-15.eu-central-1.compute.internal    eb4ah-prometheus    prometheus-eb4ah-0            154m (1%)      154m (1%)     59m (0%)       2003Mi (3%)       2003Mi (3%)     1327Mi (2%)
+ip-HH-H-H-15.eu-central-1.compute.internal    ahch1-prometheus    prometheus-ahch1-0            74m (0%)       74m (0%)      22m (0%)       1074Mi (1%)       1074Mi (1%)     673Mi (1%)
+                                                                                                                                                                              
+ip-HH-H-H-184.eu-central-1.compute.internal   *                   *                             589m (7%)      589m (7%)     611m (7%)      9115Mi (14%)      9115Mi (14%)    11359Mi (17%)
+ip-HH-H-H-184.eu-central-1.compute.internal   aed6o-prometheus    prometheus-aed6o-0            74m (0%)       74m (0%)      24m (0%)       1074Mi (1%)       1074Mi (1%)     718Mi (1%)
+ip-HH-H-H-184.eu-central-1.compute.internal   ieni3-prometheus    prometheus-ieni3-0            214m (2%)      214m (2%)     128m (1%)      3732Mi (5%)       3732Mi (5%)     2519Mi (3%)
+ip-HH-H-H-184.eu-central-1.compute.internal   aph1j-prometheus    prometheus-aph1j-0            137m (1%)      137m (1%)     45m (0%)       2003Mi (3%)       2003Mi (3%)     1569Mi (2%)
+ip-HH-H-H-184.eu-central-1.compute.internal   hou0e-prometheus    prometheus-hou0e-0            60m (0%)       60m (0%)      33m (0%)       1074Mi (1%)       1074Mi (1%)     548Mi (0%)
+ip-HH-H-H-184.eu-central-1.compute.internal   ooni1-prometheus    prometheus-ooni1-0            104m (1%)      104m (1%)     41m (0%)       1231Mi (1%)       1231Mi (1%)     919Mi (1%)
+                                                                                                                                                                              
+ip-HH-H-H-189.eu-central-1.compute.internal   *                   *                             402m (5%)      402m (5%)     458m (5%)      5245Mi (8%)       5245Mi (8%)     7100Mi (11%)
+ip-HH-H-H-189.eu-central-1.compute.internal   eu6ue-prometheus    prometheus-eu6ue-0            104m (1%)      104m (1%)     45m (0%)       1452Mi (2%)       1452Mi (2%)     1058Mi (1%)
+ip-HH-H-H-189.eu-central-1.compute.internal   it9ae-prometheus    prometheus-it9ae-0            89m (1%)       89m (1%)      65m (0%)       1101Mi (1%)       1101Mi (1%)     767Mi (1%)
+ip-HH-H-H-189.eu-central-1.compute.internal   tou5e-prometheus    prometheus-tou5e-0            89m (1%)       89m (1%)      32m (0%)       1074Mi (1%)       1074Mi (1%)     725Mi (1%)
+ip-HH-H-H-189.eu-central-1.compute.internal   choo9-prometheus    prometheus-choo9-0            120m (1%)      120m (1%)     52m (0%)       1618Mi (2%)       1618Mi (2%)     1073Mi (1%)
+                                                                                                                                                                              
+ip-HH-H-H-32.eu-central-1.compute.internal    *                   *                             551m (6%)      551m (6%)     730m (9%)      8043Mi (12%)      8043Mi (12%)    8405Mi (13%)
+ip-HH-H-H-32.eu-central-1.compute.internal    diez5-prometheus    prometheus-diez5-0            104m (1%)      104m (1%)     57m (0%)       1231Mi (1%)       1231Mi (1%)     918Mi (1%)
+ip-HH-H-H-32.eu-central-1.compute.internal    dugh4-prometheus    prometheus-dugh4-0            74m (0%)       74m (0%)      32m (0%)       1074Mi (1%)       1074Mi (1%)     710Mi (1%)
+ip-HH-H-H-32.eu-central-1.compute.internal    oosi3-prometheus    prometheus-oosi3-0            60m (0%)       60m (0%)      31m (0%)       1074Mi (1%)       1074Mi (1%)     347Mi (0%)
+ip-HH-H-H-32.eu-central-1.compute.internal    ceoh3-prometheus    prometheus-ceoh3-0            120m (1%)      120m (1%)     49m (0%)       1900Mi (2%)       1900Mi (2%)     1194Mi (1%)
+ip-HH-H-H-32.eu-central-1.compute.internal    unai3-prometheus    prometheus-unai3-0            89m (1%)       89m (1%)      37m (0%)       1231Mi (1%)       1231Mi (1%)     853Mi (1%)
+ip-HH-H-H-32.eu-central-1.compute.internal    do1be-prometheus    prometheus-do1be-0            104m (1%)      104m (1%)     49m (0%)       1533Mi (2%)       1533Mi (2%)     1068Mi (1%)
+                                                                                                                                                                              
+ip-HH-H-H-43.eu-central-1.compute.internal    *                   *                             0m (0%)        0m (0%)       597m (14%)     0Mi (0%)          0Mi (0%)        2525Mi (8%)
+                                                                                                                                                                              
+ip-HH-H-H-49.eu-central-1.compute.internal    *                   *                             312m (3%)      312m (3%)     454m (5%)      4139Mi (6%)       4139Mi (6%)     6605Mi (10%)
+ip-HH-H-H-49.eu-central-1.compute.internal    je0iz-prometheus    prometheus-je0iz-0            104m (1%)      104m (1%)     42m (0%)       1533Mi (2%)       1533Mi (2%)     1127Mi (1%)
+ip-HH-H-H-49.eu-central-1.compute.internal    ot1gu-prometheus    prometheus-ot1gu-0            104m (1%)      104m (1%)     32m (0%)       1231Mi (1%)       1231Mi (1%)     932Mi (1%)
+ip-HH-H-H-49.eu-central-1.compute.internal    aez0e-prometheus    prometheus-aez0e-0            104m (1%)      104m (1%)     43m (0%)       1374Mi (2%)       1374Mi (2%)     958Mi (1%)
+                                                                                                                                                                              
+ip-HH-H-H-71.eu-central-1.compute.internal    *                   *                             0m (0%)        0m (0%)       1967m (49%)    0Mi (0%)          0Mi (0%)        2777Mi (8%)
+                                                                                                                                                                              
+ip-HH-H-H-96.eu-central-1.compute.internal    *                   *                             2532m (31%)    2532m (31%)   1699m (21%)    34134Mi (53%)     34134Mi (53%)   26110Mi (41%)
+ip-HH-H-H-96.eu-central-1.compute.internal    iehu8-prometheus    prometheus-iehu8-0            154m (1%)      154m (1%)     43m (0%)       2003Mi (3%)       2003Mi (3%)     1503Mi (2%)
+ip-HH-H-H-96.eu-central-1.compute.internal    yi5oh-prometheus    prometheus-yi5oh-0            174m (2%)      174m (2%)     65m (0%)       1707Mi (2%)       1707Mi (2%)     1318Mi (2%)
+ip-HH-H-H-96.eu-central-1.compute.internal    zojo6-prometheus    prometheus-zojo6-0            258m (3%)      258m (3%)     97m (1%)       3927Mi (6%)       3927Mi (6%)     2146Mi (3%)
+ip-HH-H-H-96.eu-central-1.compute.internal    ye0oo-prometheus    prometheus-ye0oo-0            214m (2%)      214m (2%)     56m (0%)       2742Mi (4%)       2742Mi (4%)     1872Mi (2%)
+ip-HH-H-H-96.eu-central-1.compute.internal    ooh1b-prometheus    prometheus-ooh1b-0            104m (1%)      104m (1%)     39m (0%)       3546Mi (5%)       3546Mi (5%)     1046Mi (1%)
+ip-HH-H-H-96.eu-central-1.compute.internal    fagh0-prometheus    prometheus-fagh0-0            421m (5%)      421m (5%)     161m (2%)      6186Mi (9%)       6186Mi (9%)     3049Mi (4%)
+ip-HH-H-H-96.eu-central-1.compute.internal    ocim4-prometheus    prometheus-ocim4-0            193m (2%)      193m (2%)     98m (1%)       1900Mi (2%)       1900Mi (2%)     1402Mi (2%)
+ip-HH-H-H-96.eu-central-1.compute.internal    eel0x-prometheus    prometheus-eel0x-0            235m (2%)      235m (2%)     121m (1%)      3040Mi (4%)       3040Mi (4%)     2140Mi (3%)
+ip-HH-H-H-96.eu-central-1.compute.internal    aeg8i-prometheus    prometheus-aeg8i-0            258m (3%)      258m (3%)     123m (1%)      2603Mi (4%)       2603Mi (4%)     1709Mi (2%)
+ip-HH-H-H-96.eu-central-1.compute.internal    eeth2-prometheus    prometheus-eeth2-0            214m (2%)      214m (2%)     192m (2%)      2742Mi (4%)       2742Mi (4%)     2175Mi (3%)
+ip-HH-H-H-96.eu-central-1.compute.internal    gorilla-prometheus   prometheus-gorilla-0           307m (3%)      307m (3%)     246m (3%)      3732Mi (5%)       3732Mi (5%)     2851Mi (4%)
+# hippo
+NODE                                       NAMESPACE            POD                           CPU REQUESTS   CPU LIMITS   CPU UTIL      MEMORY REQUESTS   MEMORY LIMITS   MEMORY UTIL
+*                                          *                    *                             1056m (3%)     506m (1%)    2904m (10%)   16272Mi (7%)      5982Mi (2%)     22624Mi (10%)
+                                                                                                                                                                          
+ip-HH-H-H-151.eu-west-1.compute.internal   *                    *                             0m (0%)        0m (0%)      496m (12%)    0Mi (0%)          0Mi (0%)        2516Mi (7%)
+                                                                                                                                                                          
+ip-HH-H-H-187.eu-west-1.compute.internal   *                    *                             0m (0%)        0m (0%)      247m (6%)     0Mi (0%)          0Mi (0%)        1756Mi (5%)
+                                                                                                                                                                          
+ip-HH-H-H-46.eu-west-1.compute.internal    *                    *                             313m (7%)      313m (7%)    308m (7%)     3978Mi (12%)      3978Mi (12%)    5201Mi (16%)
+ip-HH-H-H-46.eu-west-1.compute.internal    fe8ei-prometheus     prometheus-fe8ei-0            120m (3%)      120m (3%)    56m (1%)      1374Mi (4%)       1374Mi (4%)     951Mi (3%)
+ip-HH-H-H-46.eu-west-1.compute.internal    hippo-prometheus   prometheus-hippo-0          193m (4%)      193m (4%)    61m (1%)      2603Mi (8%)       2603Mi (8%)     1762Mi (5%)
+                                                                                                                                                                          
+ip-HH-H-H-60.eu-west-1.compute.internal    *                    *                             0m (0%)        0m (0%)      643m (16%)    0Mi (0%)          0Mi (0%)        2914Mi (9%)
+                                                                                                                                                                          
+ip-HH-H-H-69.eu-west-1.compute.internal    *                    *                             550m (13%)     0m (0%)      244m (6%)     10290Mi (32%)     0Mi (0%)        4254Mi (13%)
+ip-HH-H-H-69.eu-west-1.compute.internal    monitoring           prometheus-77f6cc48d9-46qgq   550m (13%)     0m (0%)      76m (1%)      10290Mi (32%)     0Mi (0%)        1869Mi (5%)
+                                                                                                                                                                          
+ip-HH-H-H-77.eu-west-1.compute.internal    *                    *                             193m (4%)      193m (4%)    591m (14%)    2003Mi (6%)       2003Mi (6%)     2899Mi (9%)
+ip-HH-H-H-77.eu-west-1.compute.internal    eph4o-prometheus     prometheus-eph4o-0            193m (4%)      193m (4%)    52m (1%)      2003Mi (6%)       2003Mi (6%)     1085Mi (3%)
+                                                                                                                                                                          
+ip-HH-H-H-97.eu-west-1.compute.internal    *                    *                             0m (0%)        0m (0%)      378m (9%)     0Mi (0%)          0Mi (0%)        3082Mi (9%)
