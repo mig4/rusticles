@@ -29,6 +29,21 @@ for inst in $list_of_kube_contexts;
 end | tee prometheus.resource-capacity.util.txt
 ```
 
+## results
+
+When ran [the script](./the-script.sh) will re-generate the output file in
+`tests/resources/` directory. Rust tests in [apptest.rs](./tests/apptest.rs)
+verify that the Rust program produces output equal to the output of the AWK
+script, i.e.
+[this](./tests/resources/prometheus.resource-capacity.old-new-comparison.txt)
+(ran with `cargo test`).
+
+The initial implementation in [main.rs](./src/main.rs) works and passes the
+tests 🎉🦀🕺
+
+Future improvements would be nice in code parsing the input to make it more
+robust especially wrt memory units output by kubectl, etc.
+
 [fish-shell]: https://fishshell.com/
 [kubie]: https://github.com/sbstp/kubie
 [prometheus]: https://prometheus.io/
