@@ -23,14 +23,16 @@ fn parse_args(args: &mut Args) -> String {
 }
 
 fn read_input(filename: &str) -> Result<String> {
-    let stdin;  // for holding a reference throughout the scope
-    let mut input: Box<dyn Read> = if filename == "-" {
-        stdin = io::stdin();
-        Box::new(stdin.lock())
-    } else {
-        Box::new(File::open(filename)
-            .with_context(|| format!("Could not open file {:?}", &filename))?)
-    };
+    let stdin; // for holding a reference throughout the scope
+    let mut input: Box<dyn Read> =
+        if filename == "-" {
+            stdin = io::stdin();
+            Box::new(stdin.lock())
+        } else {
+            Box::new(File::open(filename).with_context(|| {
+                format!("Could not open file {:?}", &filename)
+            })?)
+        };
 
     let mut s = String::new();
     input.read_to_string(&mut s)?;
