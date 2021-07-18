@@ -1,20 +1,13 @@
 # text script experiment
 
-I thought it would be fun to take a AWK/grep/column script I once constructed
+I thought it would be fun to take an AWK/grep/column script I once constructed
 to do some text manipulation and re-write it in [Rust][] 🦀😂
 
-[The script](./the-script.sh) uses an [AWK script](./the-script.awk), `grep`
-and `column` to process memory requests, limits and utilisation data in
-[this file](./tests/resources/prometheus.resource-capacity.util.txt), summarise
-them and output totals that make it easy to compare resource usage between
-monolithic instances of Prometheus (rows marked _old_) and multiple shards they
-were split into (rows marked _new_). The output is stored in
-[old-new-comparison file](./tests/resources/prometheus.resource-capacity.old-new-comparison.txt).
+## background
 
 For a bit of background, this was after a project to split a number of
-monolithic [Prometheus][] instances into shards, initially one-per-cluster being
-scraped. I wanted to compare and see how much more memory is used in total in
-this setup.
+[Prometheus][] instances into shards, initially one-per-cluster being scraped. I
+wanted to compare and see how much more memory is used in total in this setup.
 
 The data was collected using a [fish-shell][] loop over [kubie][] executing a
 kubectl [resource-capacity][] (plugin) command to collect resource usage data
@@ -29,12 +22,23 @@ for inst in $list_of_kube_contexts;
 end | tee prometheus.resource-capacity.util.txt
 ```
 
-## results
+## script
+
+[The script](./the-script.sh) uses an [AWK script](./the-script.awk), `grep`
+and `column` to process memory requests, limits and utilisation data in
+[this file](./tests/resources/prometheus.resource-capacity.util.txt), summarises
+them and outputs totals that make it easy to compare resource usage between
+monolithic instances of Prometheus (rows marked _old_) and multiple shards they
+were split into (rows marked _new_). The output is stored in
+[old-new-comparison file](./tests/resources/prometheus.resource-capacity.old-new-comparison.txt).
 
 When ran [the script](./the-script.sh) will re-generate the output file in
-`tests/resources/` directory. Rust tests in [apptest.rs](./tests/apptest.rs)
-verify that the Rust program produces output equal to the output of the AWK
-script, i.e.
+`tests/resources/` directory.
+
+## results
+
+Rust tests in [apptest.rs](./tests/apptest.rs) verify that the Rust program
+produces output equal to the output of the AWK script, i.e.
 [this](./tests/resources/prometheus.resource-capacity.old-new-comparison.txt)
 (ran with `cargo test`).
 
